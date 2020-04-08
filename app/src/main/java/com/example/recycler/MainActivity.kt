@@ -17,12 +17,12 @@ class MainActivity : AppCompatActivity() {
 
         val users = ArrayList<User>()
 
-        users.add(User("Akpobome Oke", "Port Harcourt" ))
-        users.add(User("Akpobome Oke", "Port Harcourt" ))
-        users.add(User("Akpobome Oke", "Port Harcourt" ))
-        users.add(User("Akpobome Oke", "Port Harcourt" ))
-        users.add(User("Akpobome Oke", "Port Harcourt" ))
-        users.add(User("Akpobome Oke", "Port Harcourt" ))
+        users.add(User("BREAD", "Port Harcourt" ))
+        users.add(User("MILK", "Port Harcourt" ))
+        users.add(User("BUTTER", "Port Harcourt" ))
+        users.add(User("SARDINES", "Port Harcourt" ))
+        users.add(User("CAKE", "Port Harcourt" ))
+        users.add(User("TEA BAGS", "Port Harcourt" ))
 
         val adapter = CustomAdapter(users)
 
