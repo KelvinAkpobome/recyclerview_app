@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:text="Akpobome Oke"
+                android:id="@+id/textviewname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:text="Port Harcourt"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:id="@+id/textviewaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>
